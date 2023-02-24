@@ -1,0 +1,114 @@
+html, body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 600px;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+.logo{
+    width: 200px;
+    height: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.user-avatar{
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+/* ******************** */
+
+/* profile */
+.profile-pic{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile-info{
+    line-height: 1px;
+}
+
+.name{
+    margin-bottom: 0;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.location{
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+/* *********************** */
+
+/* Posts */
+.post{
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+}
+
+/* ************************ */
+
+/* Interactions */
+
+.inter-pics{
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+/* ************************* */
+
+/* Likes */
+
+.likes{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+/* ************************* */
+
+/* Comments */
+.comments{
+    display: flex;
+    margin-left: 15px;
+}
+
+.username{
+    font-weight: bold;
+}
+
+.comment{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* *************************** */
+
+/* separation */
+.separation{
+    border-top: 40px solid #EDEDED;
+}
